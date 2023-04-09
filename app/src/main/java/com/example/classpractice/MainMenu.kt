@@ -10,7 +10,7 @@ class MainMenu : AppCompatActivity() {
         setContentView(R.layout.activity_main_menu)
 
         val textView = findViewById<TextView>(R.id.textView)
-        val username =intent.getStringExtra("username")
+        val username = intent.getStringExtra("username")
         textView.text = username
     }
 }

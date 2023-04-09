@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ClassPractice</string>
+    <string-array name="frequency_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="second_array">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
 </resources>

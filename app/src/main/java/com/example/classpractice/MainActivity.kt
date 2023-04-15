@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         screenLightBtn.setOnClickListener {
-            val intent = Intent(this, MainMenu::class.java)
+            val intent = Intent(this, ScreenLightActivity::class.java)
             this.startActivity(intent)
         }
         flashLightBtn.setOnClickListener {
@@ -58,7 +58,7 @@ class LoginService(context: Context) {
 
     fun login(account: String, password: String) {
         if (isValidAccount(account) && isValidPassword(password)) {
-            val intent = Intent(_context, MainMenu::class.java)
+            val intent = Intent(_context, MainMenuActivity::class.java)
             intent.putExtra("username", "jrong")
             _context.startActivity(intent)
         } else {

@@ -18,10 +18,10 @@
             android:name=".FlashLightActivity"
             android:exported="false" />
         <activity
-            android:name=".ScreenLight"
+            android:name=".ScreenLightActivity"
             android:exported="false" />
         <activity
-            android:name=".MainMenu"
+            android:name=".MainMenuActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

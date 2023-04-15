@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.SeekBar
 import com.example.classpractice.databinding.ActivityScreenLightBinding
 
-class ScreenLight : AppCompatActivity() {
+class ScreenLightActivity : AppCompatActivity() {
     private lateinit var binding: ActivityScreenLightBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,11 +19,11 @@ class ScreenLight : AppCompatActivity() {
             }
 
             override fun onStartTrackingTouch(p0: SeekBar?) {
-                TODO("Not yet implemented")
+//                TODO("Not yet implemented")
             }
 
             override fun onStopTrackingTouch(p0: SeekBar?) {
-                TODO("Not yet implemented")
+//                TODO("Not yet implemented")
             }
         }
         )

@@ -16,6 +16,9 @@
         android:theme="@style/Theme.ClassPractice"
         tools:targetApi="31">
         <activity
+            android:name=".SensorLightActivity"
+            android:exported="false" />
+        <activity
             android:name=".FlashLightActivity"
             android:exported="false" />
         <activity

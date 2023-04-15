@@ -76,4 +76,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Flash Light" />
+    <Button
+        android:id="@+id/btn_sensor_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor Light" />
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var loginBtn: Button
     private lateinit var screenLightBtn: Button
     private lateinit var flashLightBtn: Button
+    private lateinit var sensorLightBtn: Button
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         loginBtn = binding.btnLogin
         screenLightBtn = binding.btnScreenLight
         flashLightBtn = binding.btnFlashLight
+        sensorLightBtn = binding.btnSensorLight
 
         loginBtn.setOnClickListener {
             val account = binding.accInput.text.toString()
@@ -42,6 +44,11 @@ class MainActivity : AppCompatActivity() {
         }
         flashLightBtn.setOnClickListener {
             val intent = Intent(this, FlashLightActivity::class.java)
+            this.startActivity(intent)
+        }
+
+        sensorLightBtn.setOnClickListener {
+            val intent = Intent(this,SensorLightActivity::class.java)
             this.startActivity(intent)
         }
     }

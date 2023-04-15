@@ -11,7 +11,7 @@ import androidx.annotation.RequiresApi
 import com.example.classpractice.databinding.ActivityFlashLightBinding
 
 @RequiresApi(Build.VERSION_CODES.M)
-class FlashlightActivity : AppCompatActivity() {
+class FlashLightActivity : AppCompatActivity() {
     private lateinit var binding: ActivityFlashLightBinding
     private lateinit var cameraM: CameraManager
     private lateinit var spinnerF: Spinner

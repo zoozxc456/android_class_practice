@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             this.startActivity(intent)
         }
         flashLightBtn.setOnClickListener {
-            val intent = Intent(this, FlashlightActivity::class.java)
+            val intent = Intent(this, FlashLightActivity::class.java)
             this.startActivity(intent)
         }
     }

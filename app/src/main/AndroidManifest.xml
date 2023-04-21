@@ -4,8 +4,10 @@
 
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
         tools:ignore="ProtectedPermissions" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ClassPractice"
         tools:targetApi="31">
+        <activity
+            android:name=".AlertDialogAndTimerActivity"
+            android:exported="false" />
         <activity
             android:name=".SensorLightActivity"
             android:exported="false" />
